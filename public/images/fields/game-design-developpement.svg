@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="52" y1="21" x2="589" y2="344" gradientUnits="userSpaceOnUse"><stop stop-color="#111a38"/><stop offset="1" stop-color="#17274b"/></linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(156 132 -132 156 484 111)" gradientUnits="userSpaceOnUse"><stop stop-color="#aa9cff" stop-opacity=".55"/><stop offset="1" stop-color="#aa9cff" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0v28" stroke="#dce5ff" stroke-opacity=".055"/></pattern>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#aa9cff"/><stop offset="1" stop-color="#61d9cc"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#030715" flood-opacity=".42"/></filter>
+  </defs>
+  <rect width="640" height="360" rx="26" fill="url(#bg)"/>
+  <circle cx="484" cy="111" r="156" fill="url(#glow)"/>
+  <rect width="640" height="360" rx="26" fill="url(#grid)"/>
+  <rect x="18.5" y="18.5" width="603" height="323" rx="23.5" stroke="#fff" stroke-opacity=".1"/>
+  <circle cx="48" cy="48" r="4" fill="#aa9cff"/>
+  <text x="62" y="52" fill="#e9efff" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1.8">NEXORA / DIGITAL STUDIO</text>
+  <text x="48" y="316" fill="#f7f8ff" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing=".3">GAME DESIGN / DEV</text>
+  <text x="535" y="316" fill="#aab8d8" font-family="Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.4">FIELD 10</text>
+  <g filter="url(#shadow)"><rect x="151" y="102" width="331" height="155" rx="16" fill="#0d1730" stroke="__A__" stroke-opacity=".55"/><path d="M151 131h331" stroke="#fff" stroke-opacity=".11"/><path d="m236 202 35-36 29 22 38-42 65 56" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M209 228h52m-26-26v52" stroke="__B__" stroke-width="6" stroke-linecap="round"/><circle cx="406" cy="199" r="9" fill="__A__"/><circle cx="431" cy="219" r="7" fill="__B__"/><path d="m327 148 5 10 11 2-8 8 2 11-10-5-10 5 2-11-8-8 11-2 5-10Z" fill="__A__"/><path d="m462 152 4 8 8 4-8 4-4 8-4-8-8-4 8-4 4-8Z" fill="__B__"/></g><path d="M169 276h294" stroke="#dce6ff" stroke-opacity=".15" stroke-width="2" stroke-dasharray="3 9"/>
+</svg>
+

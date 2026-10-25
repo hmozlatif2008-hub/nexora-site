@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="52" y1="21" x2="589" y2="344" gradientUnits="userSpaceOnUse"><stop stop-color="#111a38"/><stop offset="1" stop-color="#17274b"/></linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(156 132 -132 156 484 111)" gradientUnits="userSpaceOnUse"><stop stop-color="#8c9eff" stop-opacity=".55"/><stop offset="1" stop-color="#8c9eff" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0v28" stroke="#dce5ff" stroke-opacity=".055"/></pattern>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8c9eff"/><stop offset="1" stop-color="#6be0c4"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#030715" flood-opacity=".42"/></filter>
+  </defs>
+  <rect width="640" height="360" rx="26" fill="url(#bg)"/>
+  <circle cx="484" cy="111" r="156" fill="url(#glow)"/>
+  <rect width="640" height="360" rx="26" fill="url(#grid)"/>
+  <rect x="18.5" y="18.5" width="603" height="323" rx="23.5" stroke="#fff" stroke-opacity=".1"/>
+  <circle cx="48" cy="48" r="4" fill="#8c9eff"/>
+  <text x="62" y="52" fill="#e9efff" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1.8">NEXORA / DIGITAL STUDIO</text>
+  <text x="48" y="316" fill="#f7f8ff" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing=".3">BLOCKCHAIN / FINTECH</text>
+  <text x="535" y="316" fill="#aab8d8" font-family="Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.4">FIELD 12</text>
+  <g stroke="__A__" stroke-opacity=".68" stroke-width="2"><path d="m305 110 80 42v88l-80 43-80-43v-88l80-42Zm-80 42 80 44 80-44m-80 44v87"/></g><g filter="url(#shadow)"><path d="m305 118 65 34-65 36-65-36 65-34Z" fill="#22345a" stroke="__B__" stroke-width="2"/><path d="m240 152 65 36v72l-65-36v-72Z" fill="#152342" stroke="__A__" stroke-opacity=".75" stroke-width="2"/><path d="m305 188 65-36v72l-65 36v-72Z" fill="#1b2c4e" stroke="__B__" stroke-opacity=".75" stroke-width="2"/><circle cx="447" cy="128" r="33" fill="#1a2b4c" stroke="__B__" stroke-width="3"/><path d="M447 108v40m12-31c-4-9-21-9-24 0-5 13 25 7 24 20-1 10-19 14-25 3" stroke="__B__" stroke-width="3" stroke-linecap="round"/><circle cx="178" cy="241" r="23" fill="#19294a" stroke="__A__" stroke-width="2"/><path d="m168 241 7 7 14-16" stroke="__A__" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>
+

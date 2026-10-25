@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="52" y1="21" x2="589" y2="344" gradientUnits="userSpaceOnUse"><stop stop-color="#111a38"/><stop offset="1" stop-color="#17274b"/></linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(156 132 -132 156 484 111)" gradientUnits="userSpaceOnUse"><stop stop-color="#67d6e6" stop-opacity=".55"/><stop offset="1" stop-color="#67d6e6" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0v28" stroke="#dce5ff" stroke-opacity=".055"/></pattern>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#67d6e6"/><stop offset="1" stop-color="#8978ff"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#030715" flood-opacity=".42"/></filter>
+  </defs>
+  <rect width="640" height="360" rx="26" fill="url(#bg)"/>
+  <circle cx="484" cy="111" r="156" fill="url(#glow)"/>
+  <rect width="640" height="360" rx="26" fill="url(#grid)"/>
+  <rect x="18.5" y="18.5" width="603" height="323" rx="23.5" stroke="#fff" stroke-opacity=".1"/>
+  <circle cx="48" cy="48" r="4" fill="#67d6e6"/>
+  <text x="62" y="52" fill="#e9efff" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1.8">NEXORA / DIGITAL STUDIO</text>
+  <text x="48" y="316" fill="#f7f8ff" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing=".3">WEB / MOBILE</text>
+  <text x="535" y="316" fill="#aab8d8" font-family="Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.4">FIELD 01</text>
+  <g filter="url(#shadow)"><rect x="112" y="92" width="315" height="179" rx="14" fill="#0d1530" stroke="#67d6e6" stroke-opacity=".6"/><path d="M112 116a14 14 0 0 1 14-14h287a14 14 0 0 1 14 14v13H112v-13Z" fill="#202d4e"/><circle cx="131" cy="115" r="3" fill="#ff829e"/><circle cx="144" cy="115" r="3" fill="#ffca72"/><circle cx="157" cy="115" r="3" fill="#75e2bd"/><rect x="132" y="145" width="111" height="100" rx="9" fill="#192646"/><path d="M150 168h74M150 181h59M150 194h65M150 207h48" stroke="url(#accent)" stroke-width="5" stroke-linecap="round"/><rect x="260" y="147" width="142" height="8" rx="4" fill="#edf2ff" fill-opacity=".88"/><rect x="260" y="166" width="110" height="6" rx="3" fill="#9baac9" fill-opacity=".65"/><rect x="260" y="183" width="126" height="6" rx="3" fill="__A__" fill-opacity=".8"/><rect x="260" y="200" width="98" height="6" rx="3" fill="#9baac9" fill-opacity=".5"/><rect x="260" y="223" width="72" height="18" rx="9" fill="__B__"/></g><g filter="url(#shadow)"><rect x="447" y="118" width="84" height="148" rx="19" fill="#1c2a4b" stroke="#fff" stroke-opacity=".2"/><rect x="455" y="133" width="68" height="116" rx="11" fill="#101936"/><rect x="465" y="148" width="46" height="35" rx="7" fill="url(#accent)"/><path d="M465 198h46M465 211h36M465 224h41" stroke="#cbd6f2" stroke-opacity=".75" stroke-width="4" stroke-linecap="round"/></g>
+</svg>
+
